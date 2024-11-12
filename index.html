@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Calcular IMC, Calculadora">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <img src="tabela/tabela.png" alt="tabela" class="tabela">
+    <main class="container">
+    <div> <span>Calcule seu IMC</span></div>
+    <span > Digite seu nome:</span>
+    <input type="text"  id="name" >
+    <span > Digite seu peso:</span>
+    <input type="text"  id="peso" >
+    <span> Digite sua altura:</span>
+    <input type="text"  id="altura" >
+    <input type="submit" value="Enviar" class="butao" onclick="calcularIMC()">
+    
+    
+
+    <div class="result">
+        <span>Olá, </span>
+        <span id="nome" class="nome">usuario</span>
+        <span>seu IMC </span>
+        <span id="re" class="re">vai ser calculado</span>
+    </div>
+
+   </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
